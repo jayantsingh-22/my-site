@@ -81,6 +81,10 @@ a:hover {
     margin: auto;
 }
 
+.profile-img {
+    width: 40%;
+}
+
 .top-cloud {
     position: absolute;
     right: 100px;
@@ -96,6 +100,10 @@ a:hover {
     width: 180px;
     height: 180px;
 }
+ .planet {
+    width:35vw;
+    height: 35vw;
+ }
 
 .skill-row {
     width: 50%;
@@ -172,3 +180,49 @@ a:hover {
     padding: 20px 0;
   }
 
+
+  @media screen and (max-width:767px) {
+
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 2.5vw;
+        line-height: 2;
+    }
+
+    #para {
+        font-size: 4vw;
+    }
+
+    .top-container{
+        width: 100vw;
+    }
+
+    .bottom-container {
+        width: 100vw;
+    }
+
+    .top-cloud {
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        width: 15vw;
+        height: 15vw;
+        
+    }
+
+    .planet {
+        width: 50vw;
+        height: 50vw;
+        position: relative;
+    }
+
+    .profile-img {
+        width: 25vw;
+    }
+  }
