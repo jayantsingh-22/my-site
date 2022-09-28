@@ -142,6 +142,12 @@ a:hover {
     margin-left: 30px;
 }
 
+.contact {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
@@ -225,5 +231,11 @@ a:hover {
 
     .profile-img {
         width: 25vw;
+    }
+      
+      .contact-message {
+        width: 50vw;
+        margin: 40px auto 60px;
+        font-size: 2.7vw;
     }
   }
